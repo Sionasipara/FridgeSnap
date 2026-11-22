@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 51
+names: ['apple', 'banana', 'beans', 'beetroot', 'bel pepp', 'bel peppers', 'bell  pe', 'bell pepper', 'bell peppers', 'bellpepper', 'bitter guard', 'broccoli', 'broccolli', 'brocolli', 'brocollo', 'cabbage', 'capsicum', 'carror', 'carrot', 'carrots', 'carrrot', 'cauliflower', 'chilies', 'chillies', 'coriander', 'corn', 'cucumber', 'eggs', 'garlic', 'ginger', 'grapes', 'lemon', 'lettuce', 'milk', 'mushroom', 'onion', 'orange', 'oranges', 'peas', 'pineapple', 'potato', 'pumkin', 'spinacch', 'spinach', 'spinaxh', 'spinch', 'spring onion', 'strawberry', 'toamto', 'tomato', 'watermelon']
+
+roboflow:
+  workspace: sunny-shi
+  project: fridge-food-detection-cmih2
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/sunny-shi/fridge-food-detection-cmih2/1
