@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5ff277f8-4efe-4ace-8ad1-c6893c016a5a" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/src/detect_food.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/detect_food.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/yolo26n.pt" beforeDir="false" afterPath="$PROJECT_DIR$/models/yolo26/weights/yolo26n.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo26n.pt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AeverMess&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Sionasipara/FridgeSnap&quot;,
+    &quot;accountId&quot;: &quot;63a54d52-1af9-4d70-b35f-c0de1f5013f9&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000000219845618" />
+      <entry key="S2" value="1.034370515959076" />
+      <entry key="S5" value="1.4903080409875589" />
+      <entry key="S10" value="2.4852512096993626" />
+      <entry key="S30" value="5.843700245591412" />
+      <entry key="S60" value="8.239469418024916" />
+      <entry key="M2" value="10.664686341698832" />
+      <entry key="M5" value="14.709921179981107" />
+      <entry key="M10" value="17.77533639873198" />
+      <entry key="M15" value="19.53354267590887" />
+      <entry key="M30" value="22.532682822949802" />
+      <entry key="H1" value="25.075079611958312" />
+      <entry key="H2" value="26.968378001815545" />
+      <entry key="H4" value="31.663329848941242" />
+      <entry key="D1" value="97.31220788722328" />
+      <entry key="W1" value="156.75011435232454" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="8.220280061707257E-206" />
+      <entry key="S2" value="5.354533666324959E-52" />
+      <entry key="S5" value="3.1010334440587705E-21" />
+      <entry key="S10" value="5.604217507320653E-11" />
+      <entry key="S30" value="4.527687470896305E-4" />
+      <entry key="S60" value="0.027961656399632367" />
+      <entry key="M2" value="0.23155236832436066" />
+      <entry key="M5" value="0.8398374046043959" />
+      <entry key="M10" value="1.2948772728331792" />
+      <entry key="M15" value="1.496500783462211" />
+      <entry key="M30" value="1.7298590878375297" />
+      <entry key="H1" value="1.8599859925275137" />
+      <entry key="H2" value="1.9287110226969386" />
+      <entry key="H4" value="1.9640290675977927" />
+      <entry key="D1" value="1.993958991067442" />
+      <entry key="W1" value="1.9991358690141767" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.7269862586601552" />
+      <entry key="MS500" value="0.9382212627971801" />
+      <entry key="S2" value="1.0100550452478392" />
+      <entry key="S5" value="1.4328683287155657" />
+      <entry key="S10" value="2.4058070133909433" />
+      <entry key="S30" value="5.763781804828792" />
+      <entry key="S60" value="8.207851144004728" />
+      <entry key="M2" value="10.85500431410364" />
+      <entry key="M5" value="15.52444399204412" />
+      <entry key="M10" value="19.054120208916373" />
+      <entry key="M15" value="21.018022433520184" />
+      <entry key="M30" value="24.255472405117725" />
+      <entry key="H1" value="26.931101405369002" />
+      <entry key="H2" value="28.894956246159566" />
+      <entry key="H4" value="33.62615925882893" />
+      <entry key="D1" value="99.30560587875208" />
+      <entry key="W1" value="158.74910803570927" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3MWiCQw6P7Fr7euvcoyVBj4HQnj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.detect_food.executor": "Run",
+    "Python.evals.executor": "Run",
+    "Python.evaluate.executor": "Run",
+    "Python.infer.executor": "Run",
+    "Python.inference.executor": "Run",
+    "Python.train.executor": "Run",
+    "Python.valid.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "farhan",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/farha/Desktop/UTMIST Projects/FridgeSnap",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "advanced.settings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\farha\Desktop\UTMIST Projects\FridgeSnap" />
+      <recent name="C:\Users\farha\Desktop\UTMIST Projects\FridgeSnap\data" />
+      <recent name="C:\Users\farha\Desktop\UTMIST Projects\FridgeSnap\models\yolo26\weights" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.infer">
+    <configuration name="infer" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="FridgeSnap" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="C:\Users\farha\Desktop\UTMIST Projects\FridgeSnap\src\infer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python">
+      <module name="FridgeSnap" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="~\Desktop\UTMIST Projects\FridgeSnap\.venv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="valid" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="FridgeSnap" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="~\Desktop\UTMIST Projects\FridgeSnap\.venv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="C:\Users\farha\Desktop\UTMIST Projects\FridgeSnap\src\valid.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.infer" />
+      <item itemvalue="Python.valid" />
+      <item itemvalue="Python.train" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-73a66231627c-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.10968.92" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ff277f8-4efe-4ace-8ad1-c6893c016a5a" name="Changes" comment="" />
+      <created>1795472606028</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1795472606028</updated>
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1795653024345</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1795653024345</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+</project>
