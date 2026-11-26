@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ff277f8-4efe-4ace-8ad1-c6893c016a5a" name="Changes" comment="first commit">
-      <change beforePath="$PROJECT_DIR$/src/detect_food.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/detect_food.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/yolo26n.pt" beforeDir="false" afterPath="$PROJECT_DIR$/models/yolo26/weights/yolo26n.pt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolo26n.pt" beforeDir="false" />
+    <list default="true" id="5ff277f8-4efe-4ace-8ad1-c6893c016a5a" name="Changes" comment="reproduced results on current dataset">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,60 +40,60 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.000000219845618" />
-      <entry key="S2" value="1.034370515959076" />
-      <entry key="S5" value="1.4903080409875589" />
-      <entry key="S10" value="2.4852512096993626" />
-      <entry key="S30" value="5.843700245591412" />
-      <entry key="S60" value="8.239469418024916" />
-      <entry key="M2" value="10.664686341698832" />
-      <entry key="M5" value="14.709921179981107" />
-      <entry key="M10" value="17.77533639873198" />
-      <entry key="M15" value="19.53354267590887" />
-      <entry key="M30" value="22.532682822949802" />
-      <entry key="H1" value="25.075079611958312" />
-      <entry key="H2" value="26.968378001815545" />
-      <entry key="H4" value="31.663329848941242" />
-      <entry key="D1" value="97.31220788722328" />
-      <entry key="W1" value="156.75011435232454" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0000182078764908" />
+      <entry key="S60" value="1.024105203956237" />
+      <entry key="M2" value="1.898766204104942" />
+      <entry key="M5" value="9.366922057636277" />
+      <entry key="M10" value="20.48883592728279" />
+      <entry key="M15" value="27.98857061949209" />
+      <entry key="M30" value="40.22910057567666" />
+      <entry key="H1" value="49.83343389335916" />
+      <entry key="H2" value="56.29957305891476" />
+      <entry key="H4" value="63.41613980109354" />
+      <entry key="D1" value="130.96320881087476" />
+      <entry key="W1" value="191.45320283895765" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="8.220280061707257E-206" />
-      <entry key="S2" value="5.354533666324959E-52" />
-      <entry key="S5" value="3.1010334440587705E-21" />
-      <entry key="S10" value="5.604217507320653E-11" />
-      <entry key="S30" value="4.527687470896305E-4" />
-      <entry key="S60" value="0.027961656399632367" />
-      <entry key="M2" value="0.23155236832436066" />
-      <entry key="M5" value="0.8398374046043959" />
-      <entry key="M10" value="1.2948772728331792" />
-      <entry key="M15" value="1.496500783462211" />
-      <entry key="M30" value="1.7298590878375297" />
-      <entry key="H1" value="1.8599859925275137" />
-      <entry key="H2" value="1.9287110226969386" />
-      <entry key="H4" value="1.9640290675977927" />
-      <entry key="D1" value="1.993958991067442" />
-      <entry key="W1" value="1.9991358690141767" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="2.295592503857342E-280" />
+      <entry key="S5" value="1.3943625432365864E-112" />
+      <entry key="S10" value="1.188364340555492E-56" />
+      <entry key="S30" value="2.699943345136127E-19" />
+      <entry key="S60" value="6.828133435167337E-10" />
+      <entry key="M2" value="3.618418371370778E-5" />
+      <entry key="M5" value="0.025219881072077222" />
+      <entry key="M10" value="0.2243894938059289" />
+      <entry key="M15" value="0.46514985387711494" />
+      <entry key="M30" value="0.9644255283682462" />
+      <entry key="H1" value="1.3887966449219982" />
+      <entry key="H2" value="1.6666010651229661" />
+      <entry key="H4" value="1.8257031182364432" />
+      <entry key="D1" value="1.96983536332846" />
+      <entry key="W1" value="1.995662638603695" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.7269862586601552" />
-      <entry key="MS500" value="0.9382212627971801" />
-      <entry key="S2" value="1.0100550452478392" />
-      <entry key="S5" value="1.4328683287155657" />
-      <entry key="S10" value="2.4058070133909433" />
-      <entry key="S30" value="5.763781804828792" />
-      <entry key="S60" value="8.207851144004728" />
-      <entry key="M2" value="10.85500431410364" />
-      <entry key="M5" value="15.52444399204412" />
-      <entry key="M10" value="19.054120208916373" />
-      <entry key="M15" value="21.018022433520184" />
-      <entry key="M30" value="24.255472405117725" />
-      <entry key="H1" value="26.931101405369002" />
-      <entry key="H2" value="28.894956246159566" />
-      <entry key="H4" value="33.62615925882893" />
-      <entry key="D1" value="99.30560587875208" />
-      <entry key="W1" value="158.74910803570927" />
+      <entry key="MS100" value="0.0018097423083796302" />
+      <entry key="MS500" value="0.2828286157114751" />
+      <entry key="S2" value="0.7292573869674495" />
+      <entry key="S5" value="0.88135796727974" />
+      <entry key="S10" value="0.9388066719403628" />
+      <entry key="S30" value="0.9791895148496669" />
+      <entry key="S60" value="1.0135751216878475" />
+      <entry key="M2" value="1.892471070519403" />
+      <entry key="M5" value="9.385619091963523" />
+      <entry key="M10" value="20.705649023595296" />
+      <entry key="M15" value="28.446123310849995" />
+      <entry key="M30" value="41.18723000102946" />
+      <entry key="H1" value="51.21796662252989" />
+      <entry key="H2" value="57.96364461711624" />
+      <entry key="H4" value="65.24037542690016" />
+      <entry key="D1" value="132.9324299504489" />
+      <entry key="W1" value="193.4487149338431" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -159,7 +157,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="C:\Users\farha\Desktop\UTMIST Projects\FridgeSnap\src\infer.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\farha\Desktop\UTMIST Projects\FridgeSnap\src\yolo26_baseline\infer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,7 +182,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/train.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\farha\Desktop\UTMIST Projects\FridgeSnap\src\yolo26_baseline\train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,7 +207,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="C:\Users\farha\Desktop\UTMIST Projects\FridgeSnap\src\valid.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\farha\Desktop\UTMIST Projects\FridgeSnap\src\yolo26_baseline\valid.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,7 +245,31 @@
       <option name="project" value="LOCAL" />
       <updated>1795653024345</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="reproduced results on current dataset">
+      <option name="closed" value="true" />
+      <created>1795726178822</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1795726178822</updated>
+    </task>
+    <task id="LOCAL-00003" summary="reproduced results on current dataset">
+      <option name="closed" value="true" />
+      <created>1795726256487</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1795726256487</updated>
+    </task>
+    <task id="LOCAL-00004" summary="reproduced results on current dataset">
+      <option name="closed" value="true" />
+      <created>1795726442980</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1795726442980</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +277,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="reproduced results on current dataset" />
+    <option name="LAST_COMMIT_MESSAGE" value="reproduced results on current dataset" />
   </component>
 </project>
