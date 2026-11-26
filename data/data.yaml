@@ -1,6 +1,7 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+path: data
+train: train/images
+val: valid/images
+test: test/images
 
 nc: 51
 names: ['apple', 'banana', 'beans', 'beetroot', 'bel pepp', 'bel peppers', 'bell  pe', 'bell pepper', 'bell peppers', 'bellpepper', 'bitter guard', 'broccoli', 'broccolli', 'brocolli', 'brocollo', 'cabbage', 'capsicum', 'carror', 'carrot', 'carrots', 'carrrot', 'cauliflower', 'chilies', 'chillies', 'coriander', 'corn', 'cucumber', 'eggs', 'garlic', 'ginger', 'grapes', 'lemon', 'lettuce', 'milk', 'mushroom', 'onion', 'orange', 'oranges', 'peas', 'pineapple', 'potato', 'pumkin', 'spinacch', 'spinach', 'spinaxh', 'spinch', 'spring onion', 'strawberry', 'toamto', 'tomato', 'watermelon']

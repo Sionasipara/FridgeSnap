@@ -3,15 +3,18 @@ from ultralytics import YOLO
 img_dir = "test/images/"
 fname = ""
 
-# Load pretrained YOLO
-model = YOLO("yolo26n.pt")
+# Load updated YOLO
+model = YOLO("runs/detect/yolo26_baseline/train/weights/best.pt")
 
-# Run detection on a fridge image
+# Run detection on source images
 results = model.predict(
     source="data/"+img_dir+fname,
     conf=0.25,
-    save=False,
-    verbose=False
+    project="yolo26_baseline",
+    name="infer",
+    save=True,
+    verbose=False,
+    exist_ok=True
 )
 
 for result in results:

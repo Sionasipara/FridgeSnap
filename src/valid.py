@@ -1,16 +1,15 @@
 from ultralytics import YOLO
 
-model = YOLO(
-    "runs/detect/runs/fridge/yolo26_baseline/weights/best.pt"
-)
+model = YOLO("runs/detect/yolo26_baseline/train/weights/best.pt")
 
 metrics = model.val(
     data="data/data.yaml",
-    split="test",
+    split="val",
     imgsz=640,
+    project="yolo26_baseline",
+    name="valid",
     plots=True,
-    exist_ok=True,
-    project="runs/fridge",
+    exist_ok=True
 )
 
 print(f"Precision: {metrics.box.mp:.3f}")
