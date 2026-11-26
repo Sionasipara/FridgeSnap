@@ -1,0 +1,6 @@
+.idea/
+.vscode/
+
+data/test/
+data/train/
+data/valid/
